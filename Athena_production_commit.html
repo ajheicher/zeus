@@ -116,7 +116,7 @@
 					function change() 
 					{
 						var elem = document.getElementById("copy-button");
-						elem.value = "Copied!";
+						elem.textContent = "Copied!";
 						
 					}
 
@@ -390,6 +390,13 @@
 					  border-right: 0 none;
 					  border-radius: 3px 0 0 3px;
 					}
+					
+					#copy-button {
+						z-index: 1;
+					}
+						
+					
+					
 
 					button {
 					  position: relative;
@@ -431,7 +438,10 @@
 					</style>
 						<title></title>
 					  </head>
-					  <body>
+					  
+<!--End Header Section-->
+
+<body>
 					  
 
 					  
@@ -476,26 +486,7 @@
 						  <tbody>
 
 						
-							<tr>
-							  <td>
-
-
-							  <p align="center"> 
-
-								<br><a
-									href="http://athena.ticketphiladelphia.org/staff/MOS_Payment_Match.jpg"
-									target="closeup" onclick="closeup =
-									window.open('http://athena.ticketphiladelphia.org/staff//MOS_Payment_Match.JPG', 'closeup',
-									'scrollbars=no,resizable=yes,screenX=0,screenY=0,width=434,height=630');
-									return false;"><img
-									  src="http://athena.ticketphiladelphia.org/staff/Remember.jpg"
-									  56="" alt="Also. Remember This!" border="0" width="57
-									  height="> </a> <br>
-								  <font color="000000" size="3"> <b>Mode of Sale and
-									  Payment Method Must Match!</b></font> </p>
-								<p> </p>
-							  </td>
-							</tr>
+							<!---->
 							<tr>
 							  <td align="center"
 							  background="http://i1268.photobucket.com/albums/jj574/jaysonbucy/Blue_zpswh3zirl7.jpg">
@@ -580,7 +571,7 @@
 									
 									
 									
-									<button class="btn" id="copy-button" data-clipboard-text="Order #12345678&#10;Seats = Section, Row A, 1,3,5,7&#10;No of Accessible Seats = 1&#10;Special Request: <none>" onclick="change()">Click to copy ADA CSI Template</button>
+									<button class="btn" id="copy-button" data-clipboard-text="Order #12345678&#10;Seats = Section, Row A, 1,3,5,7&#10;No of Accessible Seats = 1&#10;Special Request: <none>" onclick="change()" >Click to copy ADA CSI Template</button>
 									
 								
 
@@ -670,7 +661,6 @@
 								<li><a href="#poacommunityrush" class="welmenu">POA Community Rush</a></li>
 								<li><b>CLASSICAL PASSES ARE NO LONGER AVAILABLE!!!</b<br>
 								<li><a href="http://www.philorch.org/recentrecordings.html" target="new" class="weblink">Some Philadelphia Orchestra Recordings available - web link</a></li>
-								<li><a href="#cdvoucher" class="welmenu">POA Donors with CD Voucher for Applause Gift Shop</a></li>
 								<li><a href="http://www.philorch.org/preparing-concert" class="weblink" target="PREPSDFSD">Prepping for a concert - talks, ettiquette, and dress code</a></li>
 								<li><a href="staff/MyAccount Guide.pdf" target="_blank" class="weblink">My Account Information</a></li>
 								<li><a href="staff/Live Note App.pdf" target="_blank" class="weblink">Live Note App</a></li>	
@@ -813,8 +803,8 @@
 								<li><a href="#plpnsmsns1516" class="welmenu">Fabulous Philadelphians: the Commissions</a> | April 14 - April 16, 2016 in Verizon Hall</li>
 								<li><a href="#vnkils1516" class="welmenu">Rite of Spring</a> | April 21 - April 23, 2016 in Verizon Hall</li>
 								<li><a href="#yymo1516" class="welmenu">Yo-Yo Ma</a> | April 28 - May 1, 2016 in Verizon Hall</li>
-								<li><a href="#wllms1516" class="welmenu">Stephane Deneve Conducts Williams</a> | May 5 - May 8, 2016 in Verizon Hall</strike></li>
-								<li><a href="#grdnle1516" class="welmenu">Yannick and Lang Lang</a> | May 12 - May 14, 2016 in Verizon Hall</li>
+								<li><a href="#wllms1516" class="welmenu">Stephane Deneve Conducts Williams</a> | May 5 - May 8, 2016 in Verizon Hall</li>
+								<li><a href="#grdnle1516" class="welmenu">Yannick and Lang Lang</a> | May 12 - May 14, 2016 in Verizon Hall</strike></li>
 								
 								
 								
@@ -836,7 +826,7 @@
 									<lh class="toch">KCP General Information:</lh>
 					   
 									<li><a
-										href="http://www.kimmelcenter.org/events/?org=355"
+										href="https://www.kimmelcenter.org/events-and-tickets/#?query=free%20at%20the%20kimmel"
 										target="new"><font color="0000ff" size="2">FREE
 										  Events at the Kimmel Center - web link</font> </a></li>
 									<li><a href="#stix" class="welmenu">Information For KimmelSTIX Student
@@ -847,10 +837,6 @@
 									
 										<br><br>
 										<lh class="toch">KCP Season Wide Promotions</lh>
-										<li><b>KC Board Members Discount:</b> Discount: 20% | Price type: KCBRD13 | Promo Code: KCBRD13 | Shows: All KCP except Simon Bolivar VIP seats
-									
-										<li><a href="staff/KCIBoardofDirectorsDiscount.pdf" class="welmenu" target="_blank">KCI Season-Long Board Member Discount - Click for valid performances</a></li>
-										<li><a href="staff/KCP Season Promotion for SEI Employees.pdf" target="_blank" class="weblink">KCP Season Promotion for  - SEIKIMMEL</li>
 										<li><a href="staff/MothersDayFlashSale.JPG" target="_blank" class="weblink">KCP Mothers Day Flash Sale | Promo Code: ILOVEMOM </li>
 									  <br><br>
 									 
@@ -858,10 +844,10 @@
 										<lh class="toch">2015-2016 KCP Performances</lh>
 										<li><strike><a href="#breg1516" class="welmenu">Brian Regan</a> | Saturday, May 7 at 7pm and 9:30pm in Merriam Theater</li>
 										<li><a href="#nakmag1516" class="welmenu">The Naked Magic Show </a> | Friday, May 6 at 7pm and 10:15pm in the Merriam Theater</li>
-										<li><a href="#hecoli1516" class="welmenu">Hector Olivera, organ </a> | Saturday, May 7, 2016 at 2:00pm in Verizon Hall</strike></li>
+										<li><a href="#hecoli1516" class="welmenu">Hector Olivera, organ </a> | Saturday, May 7, 2016 at 2:00pm in Verizon Hall</li>
 										<li><a href="#laveri1516" class="welmenu">La Verita</a> | Friday May 13th @ 8PM & Saturday May 14th @ 2PM & 8PM | Merriam Theater</li>
-										<li><a href="#jlcowm1516" class="welmenu">Jazz at Lincoln Center Orchestra with Wynton Marsalis</a> | Sunday, May 15 at 8pm in Verizon Hall</li>
-										<li><a href="#srkcp1516" class="welmenu">Seth Rudetsky’s Broadway Concert Series</a> | Megan Hilty - May 17 at 8pm in the Merriam Theater |  <strike>Sutton Foster - March 3 at 8pm in the Merriam Theater</strike> | Kelli O'Hara - June 14 at 8pm in the Merriam Theater</li>
+										<li><a href="#jlcowm1516" class="welmenu">Jazz at Lincoln Center Orchestra with Wynton Marsalis</a> | Sunday, May 15 at 8pm in Verizon Hall</strike></li>
+										<li><a href="#srkcp1516" class="welmenu">Seth Rudetsky’s Broadway Concert Series</a> | <strike>Megan Hilty - May 17 at 8pm in the Merriam Theater |  Sutton Foster - March 3 at 8pm in the Merriam Theater</strike> | Kelli O'Hara - June 14 at 8pm in the Merriam Theater</li>
 										<li><a href="#yanni1516" class="welmenu">Yanni</a> | July 19 & 20, 2016 at 8pm in Academy of Music</li>
 										<li><a href="#brferr1516" class="welmenu">Bryan Ferry </a> | Thursday, July 21, 2016 at 7:30pm in Verizon Hall</li>
 										<li><a href="#melbro1516" class="welmenu">A Hilarious Live Conversation with Mel Brooks: Back in the Saddle Again! Plus: A Screening of Blazing Saddles</a> | May 21, 2016 at 7pm in the Academy of Music</li>
@@ -873,6 +859,7 @@
 										<li><a href="#giapyo1516" class="welmenu">Gregory Alan Isakov w/ Philadelphia Youth Orchestra</a> | Sunday, June 19, 2016 at 8:00pm in Verizon Hall</li>
 										<li><a href="#kansa1516" class="welmenu">Kansas </a> | Saturday, October 1, 2016 at 8:00pm in Merriam Theater</li>
 										<li><a href="#janbaz1516" class="welmenu">Joan Baez with special guest, Mary Chapin Carpenter</a> | Sunday, October 9th at 7:30PM | Academy of Music</li>
+										<li><a href="#roscas1516" class="welmenu">Rosanne Cash </a> | Thursday, October 20th at 8:00PM | Merriam Theater</li>
 										<li><a href="#atybrd1516" class="welmenu">Anthony Bourdain: The Hunger Tour</a> | Wednesday, October 26th at 7:30PM in Academy of Music</li>
 										<li><a href="#stvmtn1516" class="welmenu">Steve Martin and Martin Short: An Evening You Will Forgot for the Rest of your Life</a> | Friday, October 28th 2016 @ 8pm & Saturday October 29th, 2016 @ 7pm | Academy of Music</li>
 										<li><a href="#lewbla1516" class="welmenu">Lewis Black The Emperor’s New Clothes: The Naked Truth Tour </a> | Saturday, November 5, 2016 at 8pm in Academy of Music</li>
@@ -1033,7 +1020,7 @@
 									<br><br><lh class="toch">COP 2015-2016 Season</lh>
 									
 									<br><b>New Show:</b> Chamber Orchestra of Philadelphia 2015-16 Season On-Sale
-										<br><b>Perf. Date & Time:</b> <strike> Arnold Flute Concerto - 2/28-29/2016 | Bartok/Mendelssohn - 4/3-4/2016</strike> | Mendelssohn/brosse/Mozart - 5/15-16/2016
+										<br><b>Perf. Date & Time:</b> <strike> Arnold Flute Concerto - 2/28-29/2016 | Bartok/Mendelssohn - 4/3-4/2016 | Mendelssohn/brosse/Mozart - 5/15-16/2016</strike> 
 
 										
 										
@@ -1176,8 +1163,8 @@
 									<li><strike><a href="#pba11516pba" class="welmenu">Speed and Precision | October 22-25, 2015 @ Academy of Music</a></li>
 									<li><a href="#nutt1516pba" class="welmenu">George Balanchine's The Nutcracker | December 11-31, 2015 @ Academy of Music</a></li>
 									<li><a href="#pba21516pba" class="welmenu">Strength and Longing | February 4-7, 2016 @ Merriam Theater</a></li>
-									<li><a href="#pba31516pba" class="welmenu">Don Quixote | March 3-13, 2016 @ Academy of Music</a></strike></li>
-									<li><a href="#pba41516pba" class="welmenu">A Program of Firsts | May 12-15, 2016 @ Academy of Music</a></li>
+									<li><a href="#pba31516pba" class="welmenu">Don Quixote | March 3-13, 2016 @ Academy of Music</a></li>
+									<li><a href="#pba41516pba" class="welmenu">A Program of Firsts | May 12-15, 2016 @ Academy of Music</a></strike></li>
 									<li><a href="#pba51516pba" class="welmenu">Balanchine and Beyond | June 6-12, 2016 @ Merriam Theater</a></li>
 									
 									
@@ -1350,7 +1337,7 @@
 										<br>
 										<br>
 										<lh class="toch">Events at the Kimmel</lh> </li>
-									  <li><a href="http://www.kimmelcenter.org/events/?org=355" target="new" class="weblink">Free at the Kimmel - web link</a> </li>
+									  <li><a href="https://www.kimmelcenter.org/events-and-tickets/#?query=free%20at%20the%20kimmel" target="new" class="weblink">Free at the Kimmel - web link</a> </li>
 									 <br><br><br>
 									 </div>	
 
@@ -1626,6 +1613,21 @@
 									<br><b>Price Type:</b>	Single 10% off
 									<br><b>Venue:</b>	Perelman Theater
 									<br><b>Ticket Limit:</b>	4
+									
+									<br><br>
+									<br><b>Promotion Name:</b>	Student Rush
+									<br><b>Discount:</b>	$10 tickets
+									<br><b>Start Date:</b>	5/21/2016 @ 10:00AM
+									<br><b>MOS:</b>	N/A
+									<br><b>Promo Code:</b>	Student Rush
+									<br><b>Price Type:</b>	B/O only
+									<br><b>Venue:</b>	Perelman Theater
+									<br><b>Ticket Limit:</b>	4
+									<br><b>Notes: </b>$10 rush tickets, valid student ID
+									
+								</div>
+									
+									
 									
 									<br><br><br>
 									<a name="knglng1516"> </a>
@@ -3051,7 +3053,7 @@
 										href="http://athena.ticketphiladelphia.org/index2.php">TOP</a></p>
 									<br>
 									<br>
-									<a href="http://www.kimmelcenter.org/events/?org=355"
+									<a href="https://www.kimmelcenter.org/events-and-tickets/#?query=free%20at%20the%20kimmel"
 									  target="new"><font color="0000ff" size="2">FREE Events
 										at the Kimmel Center - web link</font> </a> <br>
 									<br>
@@ -3138,7 +3140,7 @@
 								  <td>
 									<p align="right"><a
 										href="http://athena.ticketphiladelphia.org/index2.php">TOP</a></p>
-									<a href="http://www.kimmelcenter.org/events/?org=355"
+									<a href="https://www.kimmelcenter.org/events-and-tickets/#?query=free%20at%20the%20kimmel"
 									  target="new"><font color="0000ff" size="2">FREE Events
 										at the Kimmel Center - web link</font> </a><font
 									  color="0000ff" size="2"> </font> <br>
@@ -3275,7 +3277,9 @@
 									<b>Group Sale Promo Codes - Kelli O' Hara (please direct callers to group sales):</b><br>
 									SHALLWE - 50% off<br>
 									INSIDER - 10% off<br>
-									KC SEPTA - 10% off<br>
+									KC SEPTA - 10% off<br><br>
+									
+									<b>Megan Hilty Runtime</b>: 90 minutes</br>
 
 										
 									
@@ -3455,9 +3459,11 @@
 									<br><b>Price Type:</b>	Single Full	 		
 									<br><b>	QTY Limit:</b>	8				
 									<br><b>Available to buy:</b>	Phone, Web, Box Office
-									<br><b>Notes:</b>  VIP tickets ($299) include a meet-and-greet with the artist and preferred seating. Limited to 50
-									<br><br><br>
+									<br><b>Notes:</b>  VIP tickets ($299) include a meet-and-greet with the artist and preferred seating. Limited to 50.
+									<br>The meet-and-greet will take place in the AOM Ballroom immediately PRIOR TO the performance at 6:00PM
+									<br><br>
 									<br><b>Run Time:</b>Film is 93 minutes, followed immediately by a Conversation / Q&A lasting approximately 60-90 minutes. 
+									<br><b>Q and A:</b> Patrons will fill out question forms prior to the show, and the tour staff will screen questions
 									
 									</div><br><br>
 									
@@ -4114,6 +4120,15 @@
 										<br><b>Price Type:</b>KC Advance or VIP Package 1
 										<br><b>Ticket Limit:</b>8
 										
+										<br><br>
+										<br><b>Promotion Name:</b>AXPREVENT Presale
+										<br><b>Discount:</b>No discount
+										<br><b>Start Date:</b>Tuesday May 17thrd 2016 at 10am 
+										<br><b>MOS:</b>TP Phone Sales
+										<br><b>Promo Code:</b>AXPREVENT
+										<br><b>Price Type:</b>KC American Express
+										<br><b>Ticket Limit:</b>8
+										
 									</div>
 									<a name="janbaz1516"> </a>
 									<br><br><br>
@@ -4168,6 +4183,50 @@
 										<br><b>Ticket Limit:</b>8
 										
 									</div>
+									
+									<a name="roscas1516"> </a>
+									<br><br><br>
+									
+									<div class="perf" style="padding-top:45px;">
+									<!--This is a garbage solution - fix this-->
+									
+									Rosanne Cash | Thursday, October 20th @ 8:00PM | Merriam Theater
+									</div>
+								
+									<i>Public on-sale: Friday, May 27th @ 10:00AM</i>
+									
+									<br>
+									<br><b>Venue:</b> Merriam Theater
+									<br><b>Ticket Price:</b> $86.50 - $46.50
+									<br><b>Ticket Fees:</b> Fees vary | $4/order
+									<br><b>MOS:</b>TP Phone Sales
+									<br><b>Price Type:</b>Single Full
+									<br><b>QTY Limit:</b>8
+									<br><b>Available to buy:</b>Phone, Web, Box Office
+									<br>
+									
+									<div class="promos">
+										<br><br>
+										<br><b>Promotion Name:</b>KC Member Presale
+										<br><b>Discount:</b>No discount
+										<br><b>Start Date:</b>Monday, May 23rd @ 10:00AM
+										<br><b>MOS:</b>TP Phone Sales
+										<br><b>Promo Code:</b>CASH1617
+										<br><b>Price Type:</b>KC Sub/Mem
+										<br><b>Ticket Limit:</b>8
+										
+										<br><br>
+										<br><b>Promotion Name:</b>KC Ovation Presale
+										<br><b>Discount:</b>No discount
+										<br><b>Start Date:</b>Monday, May 24th @ 10:00AM
+										<br><b>MOS:</b>TP Phone Sales
+										<br><b>Promo Code:</b>THREAD
+										<br><b>Price Type:</b>KC Advance
+										<br><b>Ticket Limit:</b>8
+									
+									</div>
+									
+									
 											
 													
 									<br>
@@ -5244,6 +5303,20 @@
 									<br><b>Ticket Limit:</b>	8
 									<br><b>Notes:</b>
 									
+									<br><br>				
+									<br><b>Promotion Name:</b>	Internal Offer				
+									<br><b>Discount:</b>	50% off  			
+									<br><b>Start Date:</b>	5/18/2016 @ 3:00PM			
+									<br><b>End Date:</b>	6/24/2016 @ 11:59PM		
+									<br><b>Valid Dates:</b>	June 21 – 24, 2016			
+									<br><b>Valid Seating Areas:</b>	Price Level 3 ($70 orig)  				
+									<br><b>MOS:</b>	TP Phone Sales				
+									<br><b>Promo Code:</b>	Single 50% off			
+									<br><b>Price Type:</b>	HEYKID				
+									<br><b>Venue:</b>	Academy of Music  				
+									<br><b>Ticket Limit:</b>	8
+									<br><b>Notes:</b>
+									
 									
 								<br><br><b>Run Time:</b>140 Minutes plus one 20-minute intermission (160 Minutes)
 									 
@@ -5669,20 +5742,58 @@
 									<br><br>
 								
 								
-						
-										
-										
-										<br><b>Promotion Name:</b>	Subscriber Discount for Add-on Tickets
-										<br><b>Discount:</b>	18% 
-										<br><b>Start Date:</b>	Now 
-										<br><b>End Date:</b>	Entire 2015-16 season
-										<br><b>Valid Dates:</b>	All performance dates and times
-										<br><b>Valid Seating Areas:</b>	All 
-										<br><b>MOS:</b>	PBA – TP Phone Sales
-										<br><b>Promo Code:</b>	SUBSCRIBER
-										<br><b>Price Type:</b>	Sub/Mem
-										<br><b>Venue:</b>	AOM & MT
-										<br><b>Ticket Limit:</b>	8
+								<div class="promos">
+								
+									<br><b>Promotion Name:</b>	Subscriber Discount for Add-on Tickets
+									<br><b>Discount:</b>	18% 
+									<br><b>Start Date:</b>	Now 
+									<br><b>End Date:</b>	Entire 2015-16 season
+									<br><b>Valid Dates:</b>	All performance dates and times
+									<br><b>Valid Seating Areas:</b>	All 
+									<br><b>MOS:</b>	PBA – TP Phone Sales
+									<br><b>Promo Code:</b>	SUBSCRIBER
+									<br><b>Price Type:</b>	Sub/Mem
+									<br><b>Venue:</b>	AOM & MT
+									<br><b>Ticket Limit:</b>	8
+									<br><br>
+									
+									<br><b>Promotion Name:</b>	NTF Discount
+									<br><b>Discount:</b>	50% off
+									<br><b>Start Date:</b>	May 16th, 2016
+									<br><b>End Date:</b>	June 12th, 2016 @ 10:30PM
+									<br><b>Valid Dates:</b>	Friday June 10th @ 7:30PM | Saturday June 11th @ 2:00PM and 8:00PM
+									<br><b>Valid Seating Areas:</b>	Orchestra and Balcony 
+									<br><b>MOS:</b>	PBA – TP Phone Sales
+									<br><b>Promo Code:</b>	50JUNE
+									<br><b>Price Type:</b>	Single 50% off
+									<br><b>Ticket Limit:</b>	8
+									<br><br>
+									
+									<br><b>Promotion Name:</b>	Post-Show Discount
+									<br><b>Discount:</b>	30% off
+									<br><b>Start Date:</b>	May 16th, 2016
+									<br><b>End Date:</b>	June 12th, 2016 @ 10:30PM
+									<br><b>Valid Dates:</b>	Friday June 10th @ 7:30PM | Saturday June 11th @ 2:00PM and 8:00PM
+									<br><b>Valid Seating Areas:</b>	Orchestra and Balcony 
+									<br><b>MOS:</b>	PBA – TP Phone Sales
+									<br><b>Promo Code:</b>	30JU
+									<br><b>Price Type:</b>	Single 30% off
+									<br><b>Ticket Limit:</b>	8
+									<br><br>
+									
+									<br><b>Promotion Name:</b>	Funsavers
+									<br><b>Discount:</b>	50% off
+									<br><b>Start Date:</b>	May 16th, 2016
+									<br><b>End Date:</b>	June 12th, 2016 @ 10:30PM
+									<br><b>Valid Dates:</b>	Friday June 10th @ 7:30PM | Saturday June 11th @ 2:00PM and 8:00PM
+									<br><b>Valid Seating Areas:</b>	Orchestra 1 ($100) Orchestra 2 ($70) Orchestra 3 ($49) 
+									<br><b>MOS:</b>	PBA – TP Phone Sales
+									<br><b>Promo Code:</b>	FUNSAVER
+									<br><b>Price Type:</b>	Funsaver
+									<br><b>Ticket Limit:</b>	8
+									<br><br>
+									
+								</div>
 
 									
 									
@@ -5831,7 +5942,8 @@
 										<lh class="toch">Kimmel Center - Commonwealth Plaza</lh>
 										<li>Commonwealth Plaza is a small stage located in the "lobby" of the KC, between Verizon and Perelman</li>
 										<li><a href="staff/Art_Installation_CWPlaze.pdf" target="_blank" class="anylink">Talking Points When Asked About Art Installation In Commonwealth Plaza</a></li>
-										<li>Quick Link: <a href="http://www.kimmelcenter.org/events/index.php?org=355" class="weblink" target="freak">Free at the Kimmel</a></li>
+										<li>Quick Link: <a href="https://www.kimmelcenter.org/events-and-tickets/#?query=free%20at%20the%20kimmel" class="weblink" target="freak">Free at the Kimmel</a></li>
+										<li>Facility Rentals: <a href="https://www.kimmelcenter.org/rent-our-venues/" class="weblink" target="_blank">Facility Rentals/Rent Our Venues</a></li>
 										
 										
 										<br><br>
