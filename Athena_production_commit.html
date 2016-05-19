@@ -39,80 +39,19 @@
 						
 					}
 
-					// Codes by Quackit.com
-
-
-
-
-					//	setTimeout("location.reload(true);",300000);
-
-
-					  function toggle(x) {
-						if (document.getElementById(x).style.display == 'none') {
-							document.getElementById(x).style.display = '';
-						} else {
-							document.getElementById(x).style.display = 'none';
-						}
+				  function toggle(x) {
+					if (document.getElementById(x).style.display == 'none') {
+						document.getElementById(x).style.display = '';
+					} else {
+						document.getElementById(x).style.display = 'none';
+					}
 					}
 					
 					(function(){
 						new Clipboard('#copy-button');
 					})();
 					
-					
-					
-					
-					
-					/*begin
-					
-					/*
-					  Copy text from any appropriate field to the clipboard
-					  By Craig Buckler, @craigbuckler
-					  use it, abuse it, do whatever you like with it!
-					
-					(function() {
 
-						'use strict';
-					  
-					  // click events
-					  document.body.addEventListener('click', copy, true);
-
-						// event handler
-						function copy(e) {
-
-						// find target element
-						var 
-						  t = e.target,
-						  c = t.dataset.copytarget,
-						  inp = (c ? document.querySelector(c) : null);
-						  
-						// is element selectable?
-						if (inp && inp.select) {
-						  
-						  // select text
-						  inp.select();
-
-						  try {
-							// copy text
-							document.execCommand('copy');
-							inp.blur();
-							
-							// copied animation
-							t.classList.add('copied');
-							setTimeout(function() { t.classList.remove('copied'); }, 1500);
-						  }
-						  catch (err) {
-							alert('please press Ctrl/Cmd+C to copy');
-						  }
-						  
-						}
-						
-						}
-
-					})();
-
-					//end */
-					
 					function change() 
 					{
 						var elem = document.getElementById("copy-button");
@@ -443,95 +382,89 @@
 
 <body>
 					  
-
+	<!--Begin Header-->
 					  
-					<a name="topofpage"> </a>
-							  <div class="fixedLinks"> <b>
-								<a href="#topofpage" class="topmenu">TOP</a> | 
-								  <a href="#po" class="topmenu">POA</a> | 
-								  <a  href="#kcp" class="topmenu">KCP</font> </a> | 
-									<a href="#bwy" class="topmenu">BWY</font> </a> | 
-									<a href="#cop" class="topmenu">COP</font> </a> |  
-									<a href="#pba" class="topmenu">PBA</font> </a> | 
-									<a href="#kci" class="topmenu">KCI</font> </a> | 
-									<a href="#opera" class="topmenu">OPERA</font> </a> | 
-									<a href="#pcms" class="topmenu">PCMS</font> </a> | 
-									<a href="#pop" class="topmenu">POPS</font> </a> | 
-									<a href="#princet" class="topmenu">NJCP</a> | 
-									<a href="#mn" class="topmenu">Curtis</font> </a> |
-									
-									
-								<a href="#dine" class="topmenu">DINING</font> </a> | 
-									
-									
-									
-
-									<a href="#rn" class="topmenu">RENTAL</a> | 
-									<a href="#lw" class="topmenu">LONGWOOD </a> | 
-									<a href="#spk" class="topmenu">SPK</a> | 
-									<a href="#parkinghome" class="topmenu">Parking</a> | 
-									<a href="#venues" class="topmenu">VENUES</a> | 
-									<a href="#other" class="topmenu">OTHER</a> | 
-									<a href="#upsell" class="topmenu">UPSELL</a> | 
-									<a href="#genin" class="topmenu">GENERAL INFO</a> | 
-									<a href="http://www.kimmelcenter.org/events/index.php?org=333" class="topmenu" target="_blank">ATAFY</a><img src="staff/popout.jpg" height="14px">
-									</b>
-									
-						<br>
-							  </div>
-						<div style="width:650px;">   </div>
+	<a name="topofpage"> </a>
+	<div class="fixedLinks"> <b>
+		<a href="#topofpage" class="topmenu">TOP</a> | 
+			<a href="#po" class="topmenu">POA</a> | 
+			<a href="#kcp" class="topmenu">KCP</font> </a> | 
+			<a href="#bwy" class="topmenu">BWY</font> </a> | 
+			<a href="#cop" class="topmenu">COP</font> </a> |  
+			<a href="#pba" class="topmenu">PBA</font> </a> | 
+			<a href="#kci" class="topmenu">KCI</font> </a> | 
+			<a href="#opera" class="topmenu">OPERA</font> </a> | 
+			<a href="#pcms" class="topmenu">PCMS</font> </a> | 
+			<a href="#pop" class="topmenu">POPS</font> </a> | 
+			<a href="#princet" class="topmenu">NJCP</a> | 
+			<a href="#mn" class="topmenu">Curtis</font> </a> |
+			<a href="#dine" class="topmenu">DINING</font> </a> | 
+			<a href="#rn" class="topmenu">RENTAL</a> | 
+			<a href="#lw" class="topmenu">LONGWOOD </a> | 
+			<a href="#spk" class="topmenu">SPK</a> | 
+			<a href="#parkinghome" class="topmenu">Parking</a> | 
+			<a href="#venues" class="topmenu">VENUES</a> | 
+			<a href="#other" class="topmenu">OTHER</a> | 
+			<a href="#upsell" class="topmenu">UPSELL</a> | 
+			<a href="#genin" class="topmenu">GENERAL INFO</a> 
+			
+			</b>
+			<br>
+	</div>
+	<div style="width:650px;">   </div>
+	
+	<!--End Header-->
 
 
-						<table style=" background-color: rgb(255, 255, 255); width: 100%;margin-top:70px;" border="1" cellpadding="10" cellspacing="2">
-						  <tbody>
-
-						
-							<!---->
-							<tr>
-							  <td align="center"
-							  background="http://i1268.photobucket.com/albums/jj574/jaysonbucy/Blue_zpswh3zirl7.jpg">
-								  
-								  <font color="000000" size="4">BULLETIN BOARD</font>
-							  </td>
-							</tr>
-							<tr>
-							  <td align="center"
-								background="http://i1268.photobucket.com/albums/jj574/jaysonbucy/Blue_zpswh3zirl7.jpg">
-								<br><b><font color="#FFFF00" size="3">Ticket Philadelphia’s Digital Photo Contest of the 2015 – 2016 Season: Capture the Arts!</font></b>
-								<li><a href="staff/TP Digital Photo Contest 2015 2016.pdf" class="welmenu" target="_blank"><font color="#FFFF00">Click here for more information!</font></a></li>
-								<br><br><b><font color="#FFFF00" size="3">Staff Library Book Share & Trade</font></b>
-								<li><a href="staff/TP Staff Library Notice.pdf" class="welmenu" target="_blank"><font color="#FFFF00">Click here for more information!</font></a></li>
-								<br>
-							  </td>
-							</tr>
-							<tr>
-							  <th> <font color="000000" size="4">General Information</font> </th>
-							</tr>
-							<tr>
-							  <td> <br>
-								<div class="ginfo">
-								  <center> The music that plays while patrons wait for you:
-									<br>
-									<b>Mozart</b>: <i>Symphony 39</i> (4/4) Finale Allegro.
-								  </center>
-								  <br>
-								  <ul>
-									<br>
-									<div>
-									<lh class="toch">Addresses</lh>
-									<li><b>Ticket Philadelphia:</b> 230 South Broad Street,
-									  Suite 800, Philadelphia, PA 19102</li>
-									<li><b>Academy of Music</b>: 240 South Broad Street</li>
-									<li><b>Merriam Theatre</b>: 250 South Broad Street</li>
-									<li><b>Kimmel Center</b>: 300 South Broad Street</li>
-									<li><b>Forrest Theatre</b>: 1114 Walnut Street, 19107</li>
-									<li><b>Longwood Gardens</b>: 1001 Longwood Road, Kennett Square, 19348</li>
-									
-									</div
-									<br>
-									<br>
-									<div>
-									<lh class="toch">Phone Numbers</lh>
+	<table style=" background-color: rgb(255, 255, 255); width: 100%;margin-top:70px;" border="1" cellpadding="10" cellspacing="2">
+	<tbody>
+		
+		<!--Bulletin Board-->
+		<tr>
+			<td align="center" background="http://i1268.photobucket.com/albums/jj574/jaysonbucy/Blue_zpswh3zirl7.jpg">
+				<font color="000000" size="4">BULLETIN BOARD</font>
+			</td>
+		</tr>
+		<tr>
+		  <td align="center" background="http://i1268.photobucket.com/albums/jj574/jaysonbucy/Blue_zpswh3zirl7.jpg">
+			<br><b><font color="800000" size="3">New Box Office Fee Policy: Effective immediately, there will be no more $10 max on walk-up Box Office fees.  Box Office fees are $2.00 per ticket, no max.</font></b><br><br>
+			<br><b><font color="#FFFF00" size="3">Ticket Philadelphia’s Digital Photo Contest of the 2015 – 2016 Season: Capture the Arts!</font></b>
+			<li><a href="staff/TP Digital Photo Contest 2015 2016.pdf" class="welmenu" target="_blank"><font color="#FFFF00">Click here for more information!</font></a></li>
+			<br><br><b><font color="#FFFF00" size="3">Staff Library Book Share & Trade</font></b>
+			<li><a href="staff/TP Staff Library Notice.pdf" class="welmenu" target="_blank"><font color="#FFFF00">Click here for more information!</font></a></li>
+			<br>
+		  </td>
+		</tr>
+		<!--End Bulletin Board-->
+		
+		<tr>
+		  <th> <font color="000000" size="4">General Information</font> </th>
+		</tr>
+		<tr>
+		  <td> <br>
+			<div class="ginfo">
+			  <center> The music that plays while patrons wait for you:
+				<br>
+				<b>Mozart</b>: <i>Symphony 39</i> (4/4) Finale Allegro.
+			  </center>
+			  <br>
+			  <ul>
+				<br>
+				<div>
+				<lh class="toch">Addresses</lh>
+				<li><b>Ticket Philadelphia:</b> 230 South Broad Street,
+				  Suite 800, Philadelphia, PA 19102</li>
+				<li><b>Academy of Music</b>: 240 South Broad Street</li>
+				<li><b>Merriam Theatre</b>: 250 South Broad Street</li>
+				<li><b>Kimmel Center</b>: 300 South Broad Street</li>
+				<li><b>Forrest Theatre</b>: 1114 Walnut Street, 19107</li>
+				<li><b>Longwood Gardens</b>: 1001 Longwood Road, Kennett Square, 19348</li>
+				
+				</div
+				<br>
+				<br>
+				<div>
+				<lh class="toch">Phone Numbers</lh>
 									<li><a class="welmenu1" href="http://athena.ticketphiladelphia.org/staff/Lost_Found_Numbers.jpg" target="closeup" onclick="closeup = window.open('http://athena.ticketphiladelphia.org/staff/Lost_Found_Numbers.jpg', 'closeup', 'scrollbars=no,resizable=yes,screenX=0,screenY=0,width=784,height=247'); return false;">Lost & Found Phone Numbers - Click Here</font> </a></li>
 									<li><a href="#groupsales" class="welmenu2">Group Sales Numbers - Click Here<br>                  </a></li>
 									<li><b><a href="http://kimmelcenter.org/" target="_blank" class="weblink">Kimmel Center Main Number:</a></b> 215-790-5800</li>
@@ -687,7 +620,8 @@
 								<li><strike><a href="staff/FY17 POA 2nd ROUND Price Types.pdf" class="welmenu" target="_blank">FY17 POA Round 2 Price Types</a></strike></li>
 								<li><strike><a href="staff/FY17 POA Subs Promo.pdf" class="welmenu" target="_blank">FY17 POA Subscription Promotion</a></strike></li>
 								<li><a href="staff/FY17 SOLD OUT SECTIONs.pdf" class="welmenu" target="_blank">SOLD OUT SECTIONS - do not promise seats we cannot offer!</a></li>
-										<li><b>THE FOLLOWING PACKAGES ARE NO LONGER AVAILABLE - </b>
+								<br><br>
+								<li><a href="#poaetoffer" class="welmenu">POA E.T The Extra Terrestrial Special Offer - Promo code PHONEHOME</a></li>
 								
 								<li><strike><a href="staff/POA FY17 Discounts and Price Types.pdf" class="welmenu" target="_blank">FY16 POA Discounts</a></strike></li>
 								<li><a href="staff/FY17 POA Mailed Tickets and Live Note.pdf" class="welmenu" target="_blank">Subscription Ticket Mailing beginning: Tuesday, July 5th</a></li>
@@ -1408,8 +1342,10 @@
 									<li><a href="#bobfri1516" class="welmenu">Bobby and Friends | Saturday, May 14, 2016 at 8:00pm in Perelman Theater </a></li>	
 									<li><a href="#tmpmre1516" class="welmenu">Tempesta di Mare | Saturday, May 21st at 8:00PM in Perelman Theater</a></li>
 									<li><a href="#youtha1516" class="welmenu">Youth Education in the Arts | Tuesday May 24th at 10:00AM in Verizon Hall</a></li>
-									<li><a href="#ttovso1516" class="welmenu">Tutto Verismo | Saturday, May 28th 2016 @ 8:00PM in Perelman Theeater</a></li>
+									<li><a href="#ttovso1516" class="welmenu">Tutto Verismo | Saturday, May 28th 2016 @ 8:00PM in Perelman Theater</a></li>
+									<li><a href="#artins1516" class="welmenu">Art Institute Fashion Panel Discussion | Friday, June 3rd @ 6:00PM in Perelman Theater</a></li>
 									<li><a href="#itlart1516" class="welmenu">Italian Art Show | Friday, June 3rd at 7:30PM in Perelman Theater </a></li>
+									<li><a href="#latino1516" class="welmenu">Philadelphia Latino Film Festival | Friday June 10th 2016 - Sunday June 12th 2016 in Perelman Theater</a></li>
 									<li><a href="#knglng1516" class="welmenu">Magnificat! KlangVerwalktung Orchestra & Chorgemeinshcaft Chorus | Tuesday, October 25th, 2016 @ 8PM| Verizon Hall</a></li>
 									
 									
@@ -1551,7 +1487,7 @@
 								
 								</div>
 								<br><br><br>					
-								<a name="bobfri1516">Bobby and Friends</a>					
+								<a name="bobfri1516"></a>					
 								<div class="perf">					
 								Bobby and Friends   | Saturday, May 14, 2016 at 8:00pm | Perlman Theater					
 								</div>					
@@ -1683,6 +1619,58 @@
 								<br><b>Available to buy:</b>Phone, Web, Box Office
 								<br>
 								
+								<br><br><br>
+								<a name="artins1516"> </a>
+								<div class="perf" style="padding-top: 45px;">
+								Art Institute Fashion Panel Discussion | Friday June 3rd @ 6:00 PM | Perelman Theater
+								</div>
+								<i>On sale now!!</i>
+								<div class="ginfo">
+								<br>
+								</div>
+								<br><b>Ticket Price:</b> $5 for students / $15 for general admission
+								<br><b>Ticket Fees:</b> NO FEES
+								<br><b>MOS:</b>TP Phone Sales
+								<br><b>Price Type:</b>Single Full
+								<br><b>QTY Limit:</b>8
+								<br><b>Available to buy:</b>Phone, Web, Box Office
+								<br>
+								
+								<br><br><br>
+								<a name="latino1516"> </a>
+								<div class="perf" style="padding-top: 45px;">
+								Philadelphia Latino Film Festival Opening Night | Friday, June 10th @ 6:30pm - 8:30pm | Perelman Theater
+								</div>
+								<i>On sale now!!</i>
+								<div class="ginfo">
+								<br>
+								</div>
+								<br><b>Ticket Price:</b> $15 for general admission
+								<br><b>Ticket Fees:</b> $6.50 / ticket
+								<br><b>MOS:</b>TP Phone Sales
+								<br><b>Price Type:</b>Single Full
+								<br><b>QTY Limit:</b>8
+								<br><b>Available to buy:</b>Phone, Web, Box Office
+								<br><b>Notes:</b>Includes the premiere of Normal and Proyecto ENYE
+								<br>
+								
+								<br><br><br>
+								<div class="perf" style="padding-top: 45px;">
+								Philadelphia Latino Film Festival Closing Night - La Familia Reyna | Sunday, June 12th @ 7:00pm | Perelman Theater
+								</div>
+								<i>On sale now!!</i>
+								<div class="ginfo">
+								<br>
+								</div>
+								<br><b>Ticket Price:</b> $15 for general admission
+								<br><b>Ticket Fees:</b> $6.50 / ticket
+								<br><b>MOS:</b>TP Phone Sales
+								<br><b>Price Type:</b>Single Full
+								<br><b>QTY Limit:</b>8
+								<br><b>Available to buy:</b>Phone, Web, Box Office
+								<br><b>Notes:</b>The 2016 Philadelphia Latino Film Festival (PHLAFF) Closing Film is the Philadelphia Premiere of La Familia Reyna, Tito Rodriguez directorial debut. La Familia Reyna is both a family drama and an entertaining and moving story of love and forgiveness. After years of absence, a man returns to his town in search of redemption, but he must earn the forgiveness of the members of his family, especially, his brother.
+								<br>
+								
 								<!-- End of Performance Tree-->
 								
 								
@@ -1717,8 +1705,8 @@
 									<br><b>Perf. Date & Time:</b> <br>
 									Curtis Symphony - <strike>October 18th @ 3pm | January 31st @ 3pm | April 17th @ 8pm</strike><br>
 									Curtis Ensemble - <strike>December 3rd @ 6 & 9pm<br>
-									Eric Owens - January 17th @ 3pm</strike><br>
-									Curtis Opera Le Nozze di Figaro - Wednesday May 4th @ 7:30 | Friday May 6th @ 7:30 | Saturday May 7th @ 7:30 | Sunday May 8th @ 2:30pm
+									Eric Owens - January 17th @ 3pm<br>
+									Curtis Opera Le Nozze di Figaro - Wednesday May 4th @ 7:30 | Friday May 6th @ 7:30 | Saturday May 7th @ 7:30 | Sunday May 8th @ 2:30pm</strike>
 
 									<br><b>Venue:</b> Verizon Hall, Perelman Theater and SEI Innovation Studio  
 									<br><b>On Sale Date & Time:</b>	Monday, August 3 at 10am
@@ -3583,8 +3571,10 @@
 									<br><b>	QTY Limit:</b>	8				
 									<br><b>Available to buy:</b>	Phone, Web, Box Office
 									<br><b>Notes:</b>  No Pre Sale 
+									<br><b>Run Time:</b>90 Minutes
 									<br><br><br>
 									<b>VIP TICKET INFO</b>
+									<br>VIP will begin at 4:45PM and take place in the AoM Ballroom. We are encouraging patrons to arrive early to pick up wristbands - the box office will be open at 3:45PM. Patrons will be directed by the ushers to the VIP area.
 									<br>Entry to the VIP Area begins 2 hours and 15 minutes before the advertised start time of the show. It is a dedicated room within the theatre set up by Dan and Phil complete with snacks, beanbag seats and a special music playlist! Dan and Phil come to say hi to the VIP guests and then meet everyone individually. Each guest can have one item siogned and one selfie or regular photo with Dan and Phil. Every VIP also receives an exclusive tote bag containing customized VIP tour merch (not for sale anywhere) and other surprises! There is also a guest book that Dan and Phil will take home.
 									<br><br>
 									Please note - unfortunately Dan and Phil do not have space on their tourbus to accept gifts or food, but letters and small pictures are fine.
@@ -4811,65 +4801,26 @@
 										
 										</div>
 										
-										<br><br><br>
 										
-										<a name="yymo1516"> </a>
+										
+										<a name="poaetoffer"> </a>
 										<div class="perf">
-											Yo-Yo Ma | April 28 - May 1, 2016 in Verizon Hall
+											E.T The Extra Terrestrial | October 14-16, 2016 in Verizon Hall
 										</div>
-									<i>On Sale Now!</i>
-										<div class="ginfo">
-											<br><br>
-										<b>Stephane Deneve</b> Conductor | <b>Yo-Yo Ma</b> Cello
-										<br><br>
-										<b>Williams</b> <i>Tributes! For Seiji</i><br>
-										<b>Williams</b> Cello Concerto<br>
-										<b>Bebussy</b> "Clouds and "Festivals" from Nocturnes<br>
-										<b>Musorgsky/orch. Stokowski</b> <i>Pictures from an Exhibition</i>
+										<i>On sale only to subscribers and those eligable for John Williams special offer - see below</i>
+										<br>
 										
-								<br><br><br>
-										
-										
-										
+										<div class="promos"><br><br>
+											<br><b>Promotion Name:</b>John Williams Special Offer
+											<br><b>Discount:</b>No discount
+											<br><b>Start Date:</b>Wednesday, May 18th 
+											<br><b>End Date:</b>Wednesday, May 25th
+											<br><b>MOS:</b>POA-TP Phone Sales
+											<br><b>Promo Code:</b>PhoneHome
+											<br><b>Price Type:</b>Single special Full
+											<br><b>Ticket Limit:</b>8
 										</div>
-										
-										<br><br><br>
-										
-										<a name="wllms1516"> </a>
-										<div class="perf">
-											Stephane Deneve Conducts Williams |  May 5-7, 2016 in Verizon Hall
-										</div>
-								<i>On Sale Now!</i>
-										<div class="ginfo">
-											<br><br>
-										<b>Stephane Deneve</b> Conductor | <b>James Ehnes</b> Violin
-										<br><br>
-										<b>Ravel</b> <i>Pavane pour ine infante defunte</i><br>
-										<b>Williams</b> Violin Concerto<br>
-										<b>Beethoven</b> Symphony No.7
-									
-								<br><br><br>
-										
-									
-										
-										</div>
-										
-										<br><br><br>
-										
-										<a name="grdnle1516"> </a>
-										<div class="perf">
-											The Grand Finale |  May 12-14, 2016 in Verizon Hall
-										</div>
-									<i>On Sale Now!</i>
-										<div class="ginfo">
-											<br><br>
-										<b>Yannick Nezet-Seguin</b> Conductor | <b>Lang Lang</b> Piano
-										<br><br>
-										<b>Rachmaninoff</b> Piano Concerto No.1<br>
-										<b>Mahler/Cooke</b> Symphony No.10<br>
-								
-									
-								<br><br><br>
+			
 									
 										
 										</div>
@@ -5141,16 +5092,10 @@
 								  <td>
 									<p align="right"><a
 										href="http://athena.ticketphiladelphia.org/index2.php">TOP</a></p>
-									
-									  <br>
-									  <br>
-							
-									
-									
-									 
+
 									</div>
 									
-									<br><br><br>
+									
 									
 									<a name="bwy121516"> </a>
 									<div class="perf">
@@ -5160,6 +5105,7 @@
 									</div>
 									<div class="ginfo"> 
 									<br><br>
+									</div>
 									
 									<b>New Event Name:</b>	Academy Gold Upsell
 									<br><b>Valid Dates:</b>	All performances
@@ -5246,7 +5192,7 @@
 									
 									<br><br><br>
 									
-									<a name="bwy121516"> </a>
+									<a name="bwy131516"> </a>
 									<div class="perf">
 										If/Then | June 21 – 26, 2016 | Academy of Music 
 									</div>
@@ -5254,6 +5200,7 @@
 									</div>
 									<div class="ginfo"> 
 									<br><br>
+									</div>
 									
 									<b>New Event Name:</b>	Academy Gold Upsell
 									<br><b>Valid Dates:</b>	All performances
@@ -5265,7 +5212,7 @@
 									<br><b>Available to buy:</b>	Web, Phone, Box Office
 									<br><b>Notes:</b>	http://www.kimmelcenter.org/support/academygold.php | This is a mandatory upsell. | Only available on subscription shows at the AOM.
 
-									</div>
+									<br><br>
 									
 									<b>Group Sale Promo Codes (please direct callers to group sales):</b><br>
 										WHATIF - 50% off<br>
@@ -5563,166 +5510,7 @@
 
 								<br><br>
 
-									
 								
-									
-									<a name="pba41516pba"> </a>
-									<div class="perf">
-										A Program of Firsts | May 12-15, 2016 @ Academy of Music
-									</div>
-									<i>On-Sale Now</i><br>
-									<a href="staff/Firsts playbill.pdf" class="anylink" style="font-weight: bold;">Casting Information/Playbill</a>
-									<p><b>Run Time:</b> 2 hours with TWO 15 minutes intermissions</p>
-								
-								
-								<br><b>Ticket Price:</b> Ticket prices vary by performance date and time
-								<br><b>Ticket Fees:</b>	$6.50 per ticket
-								<br><b>MOS:</b>	PBA – TP Phone Sales
-								<br><b>Price Type:</b>	Single Full
-								<br><b>QTY Limit:</b>	8
-								<br><b>Available to buy:</b> Phone, Web, BO
-									<br><br>
-								
-										
-										
-								<br><b>Promotion Name:</b>	Subscriber Discount for Add-on Tickets
-								<br><b>Discount:</b>	18% 
-								<br><b>Start Date:</b>	Now 
-								<br><b>End Date:</b>	Entire 2015-16 season
-								<br><b>Valid Dates:</b>	All performance dates and times
-								<br><b>Valid Seating Areas:</b>	All 
-								<br><b>MOS:</b>	PBA – TP Phone Sales
-								<br><b>Promo Code:</b>	SUBSCRIBER
-								<br><b>Price Type:</b>	Sub/Mem
-								<br><b>Venue:</b>	AOM & MT
-								<br><b>Ticket Limit:</b>	8
-
-								
-									
-									<div class="promos">
-									<br><b>Promotion Name:</b>	A Program of Firsts- 20% Off Spring Sale
-										<br><b>Discount:</b>	20% 
-										<br><b>Start Date:</b>	Now 
-										<br><b>End Date:</b>	3/24/2016 @ 11:59PM
-										<br><b>Valid Dates:</b>	Friday 5/13 @ 7:30pm, Saturday 5/14 @ 2pm and 8pm
-										<br><b>Valid Seating Areas:</b>	All sections (excluding boxes)
-										<br><b>MOS:</b>	PBA – TP Phone Sales
-										<br><b>Promo Code:</b>	SPRING20
-										<br><b>Price Type:</b>	single 20%
-										<br><b>Venue:</b>	Academy of Music
-										<br><b>Ticket Limit:</b>	8
-										<br><br>
-										
-									
-									<br><b>Promotion Name:</b>	A Program of Firsts- PCA Discount 25% Off
-										<br><b>Discount:</b>	25% 
-										<br><b>Start Date:</b>	4/1/2016  
-										<br><b>End Date:</b>	5/16/2016 
-										<br><b>Valid Dates:</b>	Friday 5/13 @ 7:30pm, Saturday 5/14 @ 2pm and 8pm
-										<br><b>Valid Seating Areas:</b>	All sections (excluding boxes)
-										<br><b>MOS:</b>	PBA – TP Phone Sales
-										<br><b>Promo Code:</b>	PCA25
-										<br><b>Price Type:</b>	single 25% off
-										<br><b>Venue:</b>	Academy of Music
-										<br><b>Ticket Limit:</b>	8
-										<br><br>
-										
-									<br><b>Promotion Name:</b>	A Program of Firsts- City Employee Discount
-										<br><b>Discount:</b>	$10 tickets
-										<br><b>Start Date:</b>	5/6/2016  
-										<br><b>End Date:</b>	5/15/2016 
-										<br><b>Valid Dates:</b>	Thursday 5/12/16 | Friday 5/13/16 | Saturday 5/14/16 all times | Sunday 5/15/16 @ 2
-										<br><b>Valid Seating Areas:</b>	All family circle sections
-										<br><b>MOS:</b>	PBA – TP Phone Sales
-										<br><b>Promo Code:</b>	CITY
-										<br><b>Price Type:</b>	single $10 ticket
-										<br><b>Venue:</b>	Academy of Music
-										<br><b>Ticket Limit:</b>	8
-										<br><br>
-										
-									<br><b>Promotion Name:</b>	A Program of Firsts- Mothers Day Discount
-										<br><b>Discount:</b>	30% off
-										<br><b>Start Date:</b>	5/4/2016  
-										<br><b>End Date:</b>	5/8/2016 
-										<br><b>Valid Dates:</b>	Thursday 5/12/16 | Friday 5/13/16 | Saturday 5/14/16 all times | Sunday 5/15/16 @ 2
-										<br><b>Valid Seating Areas:</b>	All Parquet Circle Sections
-										<br><b>MOS:</b>	PBA – TP Phone Sales
-										<br><b>Promo Code:</b>	MOM
-										<br><b>Price Type:</b>	Single Special 1
-										<br><b>Venue:</b>	Academy of Music
-										<br><b>Ticket Limit:</b>	8
-										<br><br>
-										
-									<br><b>Promotion Name:</b>	A Program of Firsts- Funsavers Discount
-										<br><b>Discount:</b>	50% off
-										<br><b>Start Date:</b>	5/9/2016  
-										<br><b>End Date:</b>	5/15/2016 
-										<br><b>Valid Dates:</b>	Friday 5/13/16 | Saturday 5/14/16 @ 2:00 PM
-										<br><b>Valid Seating Areas:</b>	Parquet/Parquet Sides
-										<br><b>MOS:</b>	PBA – TP Phone Sales
-										<br><b>Promo Code:</b>	FUNSAVERS
-										<br><b>Price Type:</b>	Funsavers
-										<br><b>Venue:</b>	Academy of Music
-										<br><b>Ticket Limit:</b>	8
-										<br><br>
-										
-									<br><b>Promotion Name:</b>	A Program of Firsts- 30% off 
-										<br><b>Discount:</b>	30% off
-										<br><b>Start Date:</b>	4/27/2016  
-										<br><b>End Date:</b>	5/1/2016 
-										<br><b>Valid Dates:</b>	Friday 5/13/16 @ 7:30 | Saturday 5/14/16 @ 8:00 PM
-										<br><b>Valid Seating Areas:</b>	Parquet/Parquet Sides
-										<br><b>MOS:</b>	PBA – TP Phone Sales
-										<br><b>Promo Code:</b>	FIRSTS30
-										<br><b>Price Type:</b>	Single Special 3
-										<br><b>Venue:</b>	Academy of Music
-										<br><b>Ticket Limit:</b>	8
-										<br><br>
-										
-									<br><b>Promotion Name:</b>	A Program of Firsts- GREAT 30% off 
-										<br><b>Discount:</b>	30% off
-										<br><b>Start Date:</b>	5/10/2016  
-										<br><b>End Date:</b>	5/15/2016
-										<br><b>Valid Dates:</b>	Friday 5/13/16 @ 7:30 | Saturday 5/14/16 @ 2:00 PM
-										<br><b>Valid Seating Areas:</b>	Parquet/Parquet Sides
-										<br><b>MOS:</b>	PBA – TP Phone Sales
-										<br><b>Promo Code:</b>	GREAT
-										<br><b>Price Type:</b>	Single Special 2
-										<br><b>Venue:</b>	Academy of Music
-										<br><b>Ticket Limit:</b>	8
-										<br><br>	
-										
-									<br><b>Promotion Name:</b>	A Program of Firsts- 40% off 
-										<br><b>Discount:</b>	40% off
-										<br><b>Start Date:</b>	5/10/2016  
-										<br><b>End Date:</b>	5/15/2016
-										<br><b>Valid Dates:</b>	Saturday 5/14/16 @ 8:00 PM
-										<br><b>Valid Seating Areas:</b>	Parquet/Parquet Sides
-										<br><b>MOS:</b>	PBA – TP Phone Sales
-										<br><b>Promo Code:</b>	GREAT40
-										<br><b>Price Type:</b>	Single 40% off
-										<br><b>Venue:</b>	Academy of Music
-										<br><b>Ticket Limit:</b>	8
-										<br><br>
-
-									<br><b>Promotion Name:</b>	A Program of Firsts- 50% off 
-										<br><b>Discount:</b>	50% off
-										<br><b>Start Date:</b>	5/10/2016  
-										<br><b>End Date:</b>	5/15/2016
-										<br><b>Valid Dates:</b>	Thursday 5/12 @ 7:30 | Friday 5/13 @ 7:30 | Saturday 5/13 all times | Sumday 5/15 @ 2:00PM
-										<br><b>Valid Seating Areas:</b>	Family Circle and Family Circle Limited/Obstructed
-										<br><b>MOS:</b>	PBA – TP Phone Sales
-										<br><b>Promo Code:</b>	FAMILYCIRCLE
-										<br><b>Price Type:</b>	Single 50% off
-										<br><b>Venue:</b>	Academy of Music
-										<br><b>Ticket Limit:</b>	8
-										<br><br>	
-									
-									
-										
-
-
-									</div>
 									
 									<br><br><br>
 									
